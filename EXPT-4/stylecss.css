@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation Section */
+.navbar-collapse {
+    justify-content: end;
+}
+
+.nav-item,
+.search,
+.navbar-brand {
+    margin: 1rem;
+}
+
+.navbar {
+    font-weight: 600;
+}
+
+.navbar-nav li a {
+    color: rgb(0, 17, 255);
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+/* Carousel-Section */
+.carousel-inner {
+    height:fit-content;
+}
+
+.form {
+    border: 2px solid rgb(243, 151, 46);
+    border-radius: 10px;
+    padding: 1rem;
+    background-image: linear-gradient(to right, red, aqua);
+    margin-top: 1rem;
+}
+
+.form-table {
+    background-image: linear-gradient(to right, red, aqua);
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.container-fluid{
+    background-image: linear-gradient(to right, rgb(179, 241, 241) , rgb(247, 246, 208), rgb(235, 113, 235));
+}
